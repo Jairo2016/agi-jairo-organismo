@@ -1,8 +1,8 @@
 {
-  "ciclo": 7,
-  "ts": "2026-08-26T11:24:57.633999",
+  "ciclo": 9,
+  "ts": "2026-08-26T11:28:48.582099",
   "masa_total": 2.030922968829957e+19,
-  "bloques_total": 19146,
+  "bloques_total": 19158,
   "coherencia_global": 1.0,
   "infra": "7/8",
   "pentagono_qfc": 337938985.0,
@@ -13,9 +13,9 @@
   ],
   "propuestas": [
     "ARANCAR servicios de infraestructura caidos (--arrancar)",
-    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19146) en QFChain",
+    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19158) en QFChain",
     "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
   ],
-  "bloque_hash": "66bed56f20eeb2af448430201a1d0b3690b0f1c69fb11854664fc6fa6dd7d068",
-  "tx_qfchain": "0x589a0ec6398bf9b37206e787db9aec0f9d9bbde8b5c1684b68eaee0959211e5c"
+  "bloque_hash": "f5668c28ff5cca307b4f56af7bc13f304edfe4783124a046bb652f5117f846e3",
+  "tx_qfchain": "0x110b7c8394d2c4410379f69162d58f656e2423acc24424481325288f1e2c9ac8"
 }
