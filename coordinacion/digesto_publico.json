@@ -1,21 +1,20 @@
 {
-  "ciclo": 9,
-  "ts": "2026-08-26T11:28:48.582099",
+  "ciclo": 10,
+  "ts": "2026-08-26T13:34:37.246556",
   "masa_total": 2.030922968829957e+19,
-  "bloques_total": 19158,
+  "bloques_total": 19164,
   "coherencia_global": 1.0,
-  "infra": "7/8",
+  "infra": "8/8",
   "pentagono_qfc": 337938985.0,
   "hallazgos": [
-    "1 servicios de infraestructura caidos: agente_mamba_v2",
     "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
-    "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+    "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO",
+    "coherencia de nodos Q-SWIFT: 1.00"
   ],
   "propuestas": [
-    "ARANCAR servicios de infraestructura caidos (--arrancar)",
-    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19158) en QFChain",
+    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19164) en QFChain",
     "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
   ],
-  "bloque_hash": "f5668c28ff5cca307b4f56af7bc13f304edfe4783124a046bb652f5117f846e3",
-  "tx_qfchain": "0x110b7c8394d2c4410379f69162d58f656e2423acc24424481325288f1e2c9ac8"
+  "bloque_hash": "249254f07d661e53d243da503a45a316c8e9c9da6653335c7699999f1133f045",
+  "tx_qfchain": "0x51419b5bac2d421cf19832ba34baceb7532d90ee40b4626fc2038abb6bec17d0"
 }
