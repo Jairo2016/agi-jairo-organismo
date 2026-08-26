@@ -1,0 +1,41 @@
+{
+  "entidad": "TCCU_CIENTIFICO_ENCARNADO",
+  "version": "1.0",
+  "fecha": "2026-08-26",
+  "encarnado_en": "MaxNexus (TCCU_Jairo_Agent.skill_tccu_cientifico)",
+  "modelo": "k-essence minimal P(X,Phi) = X + X^2/Lambda^4 - V(Phi)",
+  "parametros_bloqueados": {
+    "xi": 0.0,
+    "lambda": 5.0,
+    "Lambda": 0.15,
+    "V0": 1.0
+  },
+  "condiciones_cientificas": {
+    "condicion_polvo": "w=0 <=> V = X + X^2/Lambda^4",
+    "c_s2": "c_s^2 = (1+2r)/(1+6r) en [1/3, 1] (S1 floor)",
+    "criterio_F2": "|w|<0.05 y |dln rho/dln a + 3|<0.05, residencia dN>=4, a<1"
+  },
+  "falsacion": {
+    "resumen": "850 configuraciones evaluadas, 0 F2 sostenido (benchmark congelado 25-08)",
+    "campanas": {
+      "M3B": "442->0",
+      "M3C": "168->0",
+      "M3D": "24->0",
+      "M4": "108->0",
+      "M6IC": "72->0",
+      "ALPHAIC": "36->0"
+    },
+    "transitorios": "55/72 trayectorias transitorias; residencia maxima 0.04 e-foldings (requisito 4)",
+    "w_mejor": 0.0084,
+    "flujo": "|dw/dN| ~ 1",
+    "M7": "congelado (P(X,Phi) -> P(X) segun Scherrer)",
+    "conclusion": "alcanzabilidad != estabilidad != atraccion; falsacion del mecanismo DM-like del Atractor Cosmico en el dominio explorado",
+    "auditoria": "8/8 PASS"
+  },
+  "publicacion": {
+    "doi": "10.5281/zenodo.22111843",
+    "repo": "Jairo2016/TCCU-Cosmic-Attractor-Falsification"
+  },
+  "regla": "No modificar parametros bloqueados sin nuevo ciclo de revision cientifica + registro en ledger",
+  "fuente_parametros": "TCCU-Cosmic-Attractor/configs/PARAMETERS_LOCKED.json"
+}
