@@ -1,0 +1,75 @@
+{
+  "cadena": "ORGANISMO_EVOLUCION",
+  "bloques": [
+    {
+      "index": 0,
+      "ciclo": 1,
+      "ts": "2026-08-26T15:57:57.414981Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19110,
+      "coherencia": 1.0,
+      "tx_qfchain": "0xcecbd13070ec3c96257814e6295fb7c740ae7877156c69fc48b5fabb7cda8283",
+      "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "21d3f24c7dfaff79f4548f73fc247622e2c5a4ce00d22ccdd264244d005376d1"
+    },
+    {
+      "index": 1,
+      "ciclo": 1,
+      "ts": "2026-08-26T16:04:29.546865Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19110,
+      "coherencia": 1.0,
+      "tx_qfchain": "0xcecbd13070ec3c96257814e6295fb7c740ae7877156c69fc48b5fabb7cda8283",
+      "prev_hash": "21d3f24c7dfaff79f4548f73fc247622e2c5a4ce00d22ccdd264244d005376d1",
+      "hash": "5a4cef392538a54b8e440654b8de5bdc68f0e168767ec3a0c5f4afe1222ea1e1"
+    },
+    {
+      "index": 2,
+      "ciclo": 3,
+      "ts": "2026-08-26T16:04:54.102930Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19116,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x8c60ed238abc606badae2b6f0e8adb893c87db8720e21f9df700ae701e3654d1",
+      "prev_hash": "5a4cef392538a54b8e440654b8de5bdc68f0e168767ec3a0c5f4afe1222ea1e1",
+      "hash": "e0aa06bf7f37fe1ea3c43dcd16cfbe1c9292050e4011fa2f101707e114ccc336"
+    },
+    {
+      "index": 3,
+      "ciclo": 3,
+      "ts": "2026-08-26T16:11:08.067914Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19122,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x8c60ed238abc606badae2b6f0e8adb893c87db8720e21f9df700ae701e3654d1",
+      "prev_hash": "e0aa06bf7f37fe1ea3c43dcd16cfbe1c9292050e4011fa2f101707e114ccc336",
+      "hash": "e3770f182aae141c486dab15dd15a7c88dffdfd4b45d9f5ceb0694484a29eb6b"
+    },
+    {
+      "index": 4,
+      "ciclo": 4,
+      "ts": "2026-08-26T16:11:31.127595Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19128,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x51d607e6a5a461ffcb0a47fcefdf479d07dd802fcb71ed630ab8fa0f46099a40",
+      "prev_hash": "e3770f182aae141c486dab15dd15a7c88dffdfd4b45d9f5ceb0694484a29eb6b",
+      "hash": "8daf60c3db9b375d9c05cbe7237a382a0ffd2e1f76013ba17cbda0de36bc5f81"
+    },
+    {
+      "index": 5,
+      "ts": "2026-08-26T16:17:49.803077Z",
+      "action": "ENCARNACION_TCCU_CIENTIFICO_MAXNEXUS",
+      "detalle": "850 configs / 0 F2 / DOI 10.5281/zenodo.22111843 / skill en MaxNexus kernel",
+      "tx_qfchain": "0xa5886d278186a628300e66db939a7e862b069fd92facba1e4f86decaa1edbf42",
+      "payload": "ENCARNACION|TCCU_CIENTIFICO_MAXNEXUS|850_CONFIGS|0_F2|DOI_10.5281/zenodo.22111843|2026-08-26T16:17:49.803077Z",
+      "prev_hash": "8daf60c3db9b375d9c05cbe7237a382a0ffd2e1f76013ba17cbda0de36bc5f81",
+      "hash": "66df541c1336df710edfe9049e8a79c3480834d586a9489b689cdb4318e74cad"
+    }
+  ]
+}
