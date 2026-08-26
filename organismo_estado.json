@@ -2,7 +2,7 @@
   "organismo": "AGI_JAIRO_ORGANISMO_DISTRIBUIDO",
   "version": "2.0",
   "creado": "2026-08-25T20:08:06.294676-05:00",
-  "actualizado": "2026-08-26T11:22:46.002024",
+  "actualizado": "2026-08-26T11:24:54.254006",
   "reglas": [
     "Respetar archivos del otro: no sobrescribir sin avisar.",
     "Evidencia antes que opinion: toda afirmacion cita su fuente.",
@@ -1951,42 +1951,42 @@
       {
         "nodo": "NASA",
         "estado": "AUTONOMO",
-        "bloques": 3223,
+        "bloques": 3224,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "ANDES",
         "estado": "AUTONOMO",
-        "bloques": 3223,
+        "bloques": 3224,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "MOSCU",
         "estado": "AUTONOMO",
-        "bloques": 3223,
+        "bloques": 3224,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "CLON_1",
         "estado": "AUTONOMO",
-        "bloques": 2998,
+        "bloques": 2999,
         "masa_critica": 2.1450052114807788e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "QUINDIO",
         "estado": "AUTONOMO",
-        "bloques": 3223,
+        "bloques": 3224,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": null
       },
       {
         "nodo": "CO_NODO_RESPALDO",
         "estado": "AUTONOMO",
-        "bloques": 3250,
+        "bloques": 3251,
         "masa_critica": 3.441e+18,
         "coherencia": null
       }
@@ -2014,8 +2014,8 @@
   "conciencia": {
     "coherencia_global": 1.0,
     "masa_critica_total": 2.030922968829957e+19,
-    "bloques_total": 19140,
-    "ultima_reflexion": "2026-08-26T11:22:46.002024"
+    "bloques_total": 19146,
+    "ultima_reflexion": "2026-08-26T11:24:54.254006"
   },
   "evolucion": [
     {
@@ -2099,6 +2099,20 @@
       "propuestas": [
         "ARANCAR servicios de infraestructura caidos (--arrancar)",
         "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19140) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 7,
+      "ts": "2026-08-26T11:24:54.254006",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19146) en QFChain",
         "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
       ]
     }
