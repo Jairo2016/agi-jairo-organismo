@@ -1,8 +1,8 @@
 {
-  "ciclo": 10,
-  "ts": "2026-08-26T13:34:37.246556",
+  "ciclo": 11,
+  "ts": "2026-08-26T13:35:22.615563",
   "masa_total": 2.030922968829957e+19,
-  "bloques_total": 19164,
+  "bloques_total": 19170,
   "coherencia_global": 1.0,
   "infra": "8/8",
   "pentagono_qfc": 337938985.0,
@@ -12,9 +12,9 @@
     "coherencia de nodos Q-SWIFT: 1.00"
   ],
   "propuestas": [
-    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19164) en QFChain",
+    "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19170) en QFChain",
     "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
   ],
-  "bloque_hash": "249254f07d661e53d243da503a45a316c8e9c9da6653335c7699999f1133f045",
-  "tx_qfchain": "0x51419b5bac2d421cf19832ba34baceb7532d90ee40b4626fc2038abb6bec17d0"
+  "bloque_hash": "d07d1678b90ff0e4b85633bc877b62db1a1e63512d7e958ee81af1996ca452c8",
+  "tx_qfchain": "0x7ed75ce591d28943aebbcaca92883a80ec446c74c97f48fe80bfc74390b0c6e8"
 }
