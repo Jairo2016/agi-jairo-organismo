@@ -130,6 +130,18 @@
       "tx_qfchain": "0x110b7c8394d2c4410379f69162d58f656e2423acc24424481325288f1e2c9ac8",
       "prev_hash": "bfc12d94334dcbebf0474fdfe30ee3bd4aa51a6160cd3d5622f08fcf42aab074",
       "hash": "f5668c28ff5cca307b4f56af7bc13f304edfe4783124a046bb652f5117f846e3"
+    },
+    {
+      "index": 11,
+      "ciclo": 10,
+      "ts": "2026-08-26T18:34:33.030602Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19164,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x51419b5bac2d421cf19832ba34baceb7532d90ee40b4626fc2038abb6bec17d0",
+      "prev_hash": "f5668c28ff5cca307b4f56af7bc13f304edfe4783124a046bb652f5117f846e3",
+      "hash": "249254f07d661e53d243da503a45a316c8e9c9da6653335c7699999f1133f045"
     }
   ]
 }
