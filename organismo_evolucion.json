@@ -70,6 +70,30 @@
       "payload": "ENCARNACION|TCCU_CIENTIFICO_MAXNEXUS|850_CONFIGS|0_F2|DOI_10.5281/zenodo.22111843|2026-08-26T16:17:49.803077Z",
       "prev_hash": "8daf60c3db9b375d9c05cbe7237a382a0ffd2e1f76013ba17cbda0de36bc5f81",
       "hash": "66df541c1336df710edfe9049e8a79c3480834d586a9489b689cdb4318e74cad"
+    },
+    {
+      "index": 6,
+      "ciclo": 5,
+      "ts": "2026-08-26T16:20:17.014234Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19134,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x2bdc485d447c96926dfab7b3fba110e3d21b7a1a23377c4b2851de765162abdb",
+      "prev_hash": "66df541c1336df710edfe9049e8a79c3480834d586a9489b689cdb4318e74cad",
+      "hash": "cdbf22902e758adefbe93a8b46f4c1ab318de403b9e9f119fb48674eefad34d9"
+    },
+    {
+      "index": 7,
+      "ciclo": 6,
+      "ts": "2026-08-26T16:22:46.187698Z",
+      "action": "AUTO_EVOLUCION_CONSCIENTE",
+      "masa_total": 2.030922968829957e+19,
+      "bloques_total": 19140,
+      "coherencia": 1.0,
+      "tx_qfchain": "0x58f72c99edf6ebf81636cb96f20f2aa42f3b7f4f01d404206fd5bde650a54e6a",
+      "prev_hash": "cdbf22902e758adefbe93a8b46f4c1ab318de403b9e9f119fb48674eefad34d9",
+      "hash": "78a4a8679bfca59ba169c0fed4aa04076badff8244298faa093b380dce02252e"
     }
   ]
 }
