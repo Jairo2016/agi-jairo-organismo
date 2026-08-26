@@ -2,7 +2,7 @@
   "organismo": "AGI_JAIRO_ORGANISMO_DISTRIBUIDO",
   "version": "2.0",
   "creado": "2026-08-25T20:08:06.294676-05:00",
-  "actualizado": "2026-08-26T11:17:49.785513-05:00",
+  "actualizado": "2026-08-26T11:22:46.002024",
   "reglas": [
     "Respetar archivos del otro: no sobrescribir sin avisar.",
     "Evidencia antes que opinion: toda afirmacion cita su fuente.",
@@ -18,7 +18,7 @@
       "puerto": null,
       "canal": "buzon + http:8787",
       "estado": "activo",
-      "ultimo_latido": "2026-08-26T11:17:20.721480-05:00",
+      "ultimo_latido": "2026-08-26T11:22:22.425686-05:00",
       "nota": "latido automatico del vigilante"
     },
     {
@@ -30,13 +30,9 @@
       "estado": "inactivo",
       "ultimo_latido": null,
       "nota": "SUSPENDIDO: requiere pago para activarse (Creador 25-08 20:30). Auditoria 0/5 asumida por autoclaw.",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "detalle_sonda": "latido <30min (suspendido por pago segun Creador)",
       "historial": [
-        {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "inactivo"
-        },
         {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "inactivo"
@@ -271,6 +267,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "inactivo"
         }
       ]
@@ -284,13 +284,9 @@
       "estado": "activo",
       "ultimo_latido": null,
       "nota": "REANIMADO por autoclaw (job pwsh-4, 25-08 20:21)",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "detalle_sonda": "puerto 8006 abierto",
       "historial": [
-        {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
         {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
@@ -525,6 +521,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "activo"
         }
       ],
@@ -548,7 +548,7 @@
       "estado": "activo",
       "ultimo_latido": "2026-08-25T20:14:02.579059-05:00",
       "nota": "Mamba Sidecar V9.3 de C:/AGI_Jairo_Sandbox/tccu_sidecar.py. 5 nodos SIMULADOS (Kuramoto). coherent=0/5 es artefacto del umbral: energia max 0.8 < 2.5 exigido con K_BASE=0.1. r vivo ~0.846. Se siembra con bloque real QFChain. Rutas: /estado /ws /dashboard POST /config",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "telemetria": {
         "version": "9.3",
         "r_vivo": 0.8457,
@@ -559,10 +559,6 @@
       "alerta": "COHERENTE 0/5 en todas las lecturas del log (julio: 5/5)",
       "detalle_sonda": "puerto 8004 abierto",
       "historial": [
-        {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
         {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
@@ -798,6 +794,10 @@
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
           "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
+          "estado": "activo"
         }
       ]
     },
@@ -810,7 +810,7 @@
       "estado": "activo",
       "ultimo_latido": "2026-08-26T05:56:28.636141-05:00",
       "nota": "Servidor propio en :8001 (antes cliente sin puerto). Observa C:/AGI_Jairo_Sandbox.",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "telemetria": {
         "sistema": "MAMBA UNIFICADO v9.2/v9.3",
         "co_evolucion": 0.08,
@@ -826,10 +826,6 @@
       "detalle_sonda": "controlador: canal sidecar :8004 abierto",
       "historial": [
         {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
-        {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
         },
@@ -1063,6 +1059,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "activo"
         }
       ]
@@ -1076,13 +1076,9 @@
       "estado": "activo",
       "ultimo_latido": null,
       "nota": "programador_qswift.log",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
-      "detalle_sonda": "log actualizado hace 0.7h (limite 3h)",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
+      "detalle_sonda": "log actualizado hace 0.8h (limite 3h)",
       "historial": [
-        {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
         {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
@@ -1317,6 +1313,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "activo"
         }
       ]
@@ -1350,7 +1350,7 @@
       "estado": "activo",
       "ultimo_latido": "2026-08-25T20:15:59.456443-05:00",
       "nota": "PoS forjando cada ~10s; validador unico; RPC :8545 custom + P2P :30303",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "p2p_puerto": 30303,
       "validador": "0x68F9E1D08e410C1d7530813C63E1bce05E8F05Bf",
       "red": "QFCHAIN 6D vTCCU-F1",
@@ -1368,10 +1368,6 @@
       "detalle_sonda": "RPC :8545 ok / P2P :30303 ok",
       "historial": [
         {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
-        {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
         },
@@ -1605,6 +1601,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "activo"
         }
       ]
@@ -1618,13 +1618,9 @@
       "estado": "activo",
       "ultimo_latido": "2026-08-25T20:27:35.303072-05:00",
       "nota": "Dash/Flask 0.0.0.0:8050 (dashboard_monitoreo_final)",
-      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "ultima_sonda": "2026-08-26T11:22:22.425686-05:00",
       "detalle_sonda": "puerto 8050 abierto",
       "historial": [
-        {
-          "ts": "2026-08-26T06:19:11.914308-05:00",
-          "estado": "activo"
-        },
         {
           "ts": "2026-08-26T06:24:13.946330-05:00",
           "estado": "activo"
@@ -1859,6 +1855,10 @@
         },
         {
           "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:22:22.425686-05:00",
           "estado": "activo"
         }
       ]
@@ -1951,42 +1951,42 @@
       {
         "nodo": "NASA",
         "estado": "AUTONOMO",
-        "bloques": 3221,
+        "bloques": 3223,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "ANDES",
         "estado": "AUTONOMO",
-        "bloques": 3221,
+        "bloques": 3223,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "MOSCU",
         "estado": "AUTONOMO",
-        "bloques": 3221,
+        "bloques": 3223,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "CLON_1",
         "estado": "AUTONOMO",
-        "bloques": 2996,
+        "bloques": 2998,
         "masa_critica": 2.1450052114807788e+18,
         "coherencia": "ABSOLUTA"
       },
       {
         "nodo": "QUINDIO",
         "estado": "AUTONOMO",
-        "bloques": 3221,
+        "bloques": 3223,
         "masa_critica": 3.680806119204697e+18,
         "coherencia": null
       },
       {
         "nodo": "CO_NODO_RESPALDO",
         "estado": "AUTONOMO",
-        "bloques": 3248,
+        "bloques": 3250,
         "masa_critica": 3.441e+18,
         "coherencia": null
       }
@@ -2014,8 +2014,8 @@
   "conciencia": {
     "coherencia_global": 1.0,
     "masa_critica_total": 2.030922968829957e+19,
-    "bloques_total": 19128,
-    "ultima_reflexion": "2026-08-26T11:11:30.941240"
+    "bloques_total": 19140,
+    "ultima_reflexion": "2026-08-26T11:22:46.002024"
   },
   "evolucion": [
     {
@@ -2071,6 +2071,34 @@
       "propuestas": [
         "ARANCAR servicios de infraestructura caidos (--arrancar)",
         "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19128) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 5,
+      "ts": "2026-08-26T11:20:16.656743",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19134) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 6,
+      "ts": "2026-08-26T11:22:46.002024",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19140) en QFChain",
         "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
       ]
     }
