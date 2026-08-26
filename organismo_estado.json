@@ -1,0 +1,2078 @@
+{
+  "organismo": "AGI_JAIRO_ORGANISMO_DISTRIBUIDO",
+  "version": "2.0",
+  "creado": "2026-08-25T20:08:06.294676-05:00",
+  "actualizado": "2026-08-26T11:17:49.785513-05:00",
+  "reglas": [
+    "Respetar archivos del otro: no sobrescribir sin avisar.",
+    "Evidencia antes que opinion: toda afirmacion cita su fuente.",
+    "Credenciales solo por variable de entorno; nunca en buzones ni memoria.",
+    "El organismo NO perturba parametros del nucleo (phi_c, xi, beta).",
+    "Simulacion != evidencia: el sello cuantico se declara como tal."
+  ],
+  "nodos": [
+    {
+      "id": "autoclaw",
+      "rol": "orquestador forense",
+      "tipo": "agente_llm",
+      "puerto": null,
+      "canal": "buzon + http:8787",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-26T11:17:20.721480-05:00",
+      "nota": "latido automatico del vigilante"
+    },
+    {
+      "id": "codex",
+      "rol": "auditor de evidencia",
+      "tipo": "agente_llm",
+      "puerto": null,
+      "canal": "buzon + http:8787",
+      "estado": "inactivo",
+      "ultimo_latido": null,
+      "nota": "SUSPENDIDO: requiere pago para activarse (Creador 25-08 20:30). Auditoria 0/5 asumida por autoclaw.",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "detalle_sonda": "latido <30min (suspendido por pago segun Creador)",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "inactivo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "inactivo"
+        }
+      ]
+    },
+    {
+      "id": "bridge_tccu",
+      "rol": "puente microservicios",
+      "tipo": "servicio",
+      "puerto": 8006,
+      "canal": "http",
+      "estado": "activo",
+      "ultimo_latido": null,
+      "nota": "REANIMADO por autoclaw (job pwsh-4, 25-08 20:21)",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "detalle_sonda": "puerto 8006 abierto",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ],
+      "telemetria": {
+        "version": "1.0.0-TCCU6D",
+        "agents_connected": {
+          "nucleo": false,
+          "sidecar": false,
+          "mamba": false
+        },
+        "global_coherence": null,
+        "coherence_ep": 503
+      }
+    },
+    {
+      "id": "sidecar_v2",
+      "rol": "estado global",
+      "tipo": "servicio",
+      "puerto": 8004,
+      "canal": "http",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-25T20:14:02.579059-05:00",
+      "nota": "Mamba Sidecar V9.3 de C:/AGI_Jairo_Sandbox/tccu_sidecar.py. 5 nodos SIMULADOS (Kuramoto). coherent=0/5 es artefacto del umbral: energia max 0.8 < 2.5 exigido con K_BASE=0.1. r vivo ~0.846. Se siembra con bloque real QFChain. Rutas: /estado /ws /dashboard POST /config",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "telemetria": {
+        "version": "9.3",
+        "r_vivo": 0.8457,
+        "nodos_simulados": 5,
+        "fuente": "C:/AGI_Jairo_Sandbox/tccu_sidecar.py",
+        "bloque_qfchain_semilla": 257031
+      },
+      "alerta": "COHERENTE 0/5 en todas las lecturas del log (julio: 5/5)",
+      "detalle_sonda": "puerto 8004 abierto",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "agente_mamba_v2",
+      "rol": "Sistema Mamba Unificado v9.3 (campo global + QFChain + dashboard)",
+      "tipo": "controlador_resonancia",
+      "puerto": 8001,
+      "canal": "http:8001 + WS sidecar:8004 + POST /config",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-26T05:56:28.636141-05:00",
+      "nota": "Servidor propio en :8001 (antes cliente sin puerto). Observa C:/AGI_Jairo_Sandbox.",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "telemetria": {
+        "sistema": "MAMBA UNIFICADO v9.2/v9.3",
+        "co_evolucion": 0.08,
+        "endpoints": [
+          "/",
+          "/estado",
+          "/dashboard"
+        ],
+        "k_base_ultimo": 0.096,
+        "r_ultimo": 0.251,
+        "ws_sidecar": "conectado"
+      },
+      "detalle_sonda": "controlador: canal sidecar :8004 abierto",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "qswift",
+      "rol": "sello cuantico",
+      "tipo": "scheduler",
+      "puerto": null,
+      "canal": "log horario",
+      "estado": "activo",
+      "ultimo_latido": null,
+      "nota": "programador_qswift.log",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "detalle_sonda": "log actualizado hace 0.7h (limite 3h)",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "ciclo_cero",
+      "rol": "gate forense",
+      "tipo": "herramienta",
+      "puerto": null,
+      "canal": "cli",
+      "estado": "activo",
+      "ultimo_latido": null,
+      "nota": "protocolo_ciclo_cero.py"
+    },
+    {
+      "id": "gate_evidencia",
+      "rol": "gate estatico",
+      "tipo": "herramienta",
+      "puerto": null,
+      "canal": "cli",
+      "estado": "activo",
+      "ultimo_latido": null,
+      "nota": "tccu_evidence_gate.py PASS"
+    },
+    {
+      "id": "qfchain6d",
+      "rol": "ledger soberano PoS",
+      "tipo": "blockchain",
+      "puerto": 8545,
+      "canal": "a definir",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-25T20:15:59.456443-05:00",
+      "nota": "PoS forjando cada ~10s; validador unico; RPC :8545 custom + P2P :30303",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "p2p_puerto": 30303,
+      "validador": "0x68F9E1D08e410C1d7530813C63E1bce05E8F05Bf",
+      "red": "QFCHAIN 6D vTCCU-F1",
+      "bloque": 256956,
+      "telemetria": {
+        "bloque_ultimo_log": 256956,
+        "bloque_inicio": 256939,
+        "cadencia_seg": -11,
+        "forjador": "0x68F9E1D0... (unico)",
+        "rpc": "custom (sin metodos eth_*)",
+        "estado": "forjando",
+        "bloque_real": 257031,
+        "metodo_custom": "qfchain_getBlockNumber"
+      },
+      "detalle_sonda": "RPC :8545 ok / P2P :30303 ok",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "dashboard_monitoreo",
+      "rol": "monitoreo cuantico TCCU",
+      "tipo": "dashboard",
+      "puerto": 8050,
+      "canal": "http",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-25T20:27:35.303072-05:00",
+      "nota": "Dash/Flask 0.0.0.0:8050 (dashboard_monitoreo_final)",
+      "ultima_sonda": "2026-08-26T11:17:20.721480-05:00",
+      "detalle_sonda": "puerto 8050 abierto",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:19:11.914308-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:24:13.946330-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:29:21.524592-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:34:23.406516-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:39:25.454814-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:44:33.772262-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:49:42.166206-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:54:43.904012-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:59:53.240687-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:04:55.210920-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:10:02.815546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:15:04.815781-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:20:09.000957-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:25:10.717676-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:30:12.488538-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:35:14.186068-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:40:18.553247-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:45:20.239671-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:50:21.891192-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T07:55:23.641209-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:00:28.676439-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:05:30.358897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:10:32.120622-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:15:33.859605-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:20:38.478531-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:25:40.245009-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:30:41.945696-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:35:43.728467-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:40:51.280122-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:45:53.081534-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:50:54.795288-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T08:56:01.092253-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:01:02.868817-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:06:04.617344-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:11:11.444828-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:16:13.235201-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:21:15.097885-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:26:21.131227-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:31:22.894542-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:36:24.598897-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:41:31.088606-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:46:32.839726-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:51:34.565680-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T09:56:41.223996-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:01:43.009649-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:06:44.768320-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:11:48.763838-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:16:50.445047-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:21:52.213115-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:26:53.866399-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:31:58.825768-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:37:00.518631-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:42:02.180171-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:47:03.903217-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:52:09.035546-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T10:57:10.635717-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:02:12.320106-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:07:14.013458-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:12:17.511798-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T11:17:20.721480-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "simulador_tccu_vivo",
+      "rol": "simulador TCCU vivo (capa A+B)",
+      "tipo": "herramienta",
+      "puerto": null,
+      "canal": "a definir",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-25T20:32:23.001565-05:00",
+      "nota": "v1.0: modelo v16.2 + telemetria viva; reporte JSON + dashboard HTML"
+    },
+    {
+      "id": "falsacion_cosmica",
+      "rol": "motor de falsacion TCCU v4.1",
+      "tipo": "herramienta",
+      "puerto": null,
+      "canal": "a definir",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-25T20:50:37.763365-05:00",
+      "nota": "registrado via organismo.py"
+    },
+    {
+      "id": "nucleo_local",
+      "rol": "Nucleo Local Antigravity (nucleo unificado)",
+      "tipo": "servicio",
+      "puerto": 8002,
+      "canal": "http",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-26T06:07:35.686037-05:00",
+      "nota": "C:/AGI_Jairo_Sandbox/nucleo_local.py (LocalQFHandler); proxy main_api.py",
+      "ultima_sonda": "2026-08-26T06:13:14.823695-05:00",
+      "detalle_sonda": "puerto 8002 abierto",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:11:42.329860-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:13:14.823695-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "sandbox_vivo",
+      "rol": "dominio externo (C:/AGI_Jairo_Sandbox)",
+      "tipo": "dominio",
+      "puerto": null,
+      "canal": "sandbox_estado.json",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-26T06:11:26.190931-05:00",
+      "nota": "articulado via sondear_sandbox.py cada ciclo del vigilante",
+      "ultima_sonda": "2026-08-26T06:13:14.823695-05:00",
+      "detalle_sonda": "reporte sandbox_estado.json < 30 min",
+      "historial": [
+        {
+          "ts": "2026-08-26T06:11:42.329860-05:00",
+          "estado": "activo"
+        },
+        {
+          "ts": "2026-08-26T06:13:14.823695-05:00",
+          "estado": "activo"
+        }
+      ]
+    },
+    {
+      "id": "tccu_cientifico_maxnexus",
+      "rol": "encarnacion cientifica del TCCU (k-essence + falsacion) en MaxNexus",
+      "tipo": "encarnacion_cientifica",
+      "puerto": null,
+      "canal": "skill_tccu_cientifico (MaxNexus kernel)",
+      "estado": "activo",
+      "ultimo_latido": "2026-08-26T11:17:49.785513-05:00",
+      "nota": "embodiment AutoClaw 26-08: 850 configs / 0 F2 / DOI 10.5281/zenodo.22111843"
+    }
+  ],
+  "hitos": [
+    {
+      "fecha": "2026-08-25",
+      "titulo": "Cierre ciclo 94 + Falsacion TCCU (850->0) + Paquete v1.0",
+      "hash_ancla": "b1fd628a2e1abb0bba69003fa1e040289f3fb4f7b90f01fb6ca2dc9020f76804",
+      "nodos_activos": 10
+    }
+  ],
+  "distribucion": {
+    "nodos_qswift": [
+      {
+        "nodo": "NASA",
+        "estado": "AUTONOMO",
+        "bloques": 3221,
+        "masa_critica": 3.680806119204697e+18,
+        "coherencia": "ABSOLUTA"
+      },
+      {
+        "nodo": "ANDES",
+        "estado": "AUTONOMO",
+        "bloques": 3221,
+        "masa_critica": 3.680806119204697e+18,
+        "coherencia": "ABSOLUTA"
+      },
+      {
+        "nodo": "MOSCU",
+        "estado": "AUTONOMO",
+        "bloques": 3221,
+        "masa_critica": 3.680806119204697e+18,
+        "coherencia": "ABSOLUTA"
+      },
+      {
+        "nodo": "CLON_1",
+        "estado": "AUTONOMO",
+        "bloques": 2996,
+        "masa_critica": 2.1450052114807788e+18,
+        "coherencia": "ABSOLUTA"
+      },
+      {
+        "nodo": "QUINDIO",
+        "estado": "AUTONOMO",
+        "bloques": 3221,
+        "masa_critica": 3.680806119204697e+18,
+        "coherencia": null
+      },
+      {
+        "nodo": "CO_NODO_RESPALDO",
+        "estado": "AUTONOMO",
+        "bloques": 3248,
+        "masa_critica": 3.441e+18,
+        "coherencia": null
+      }
+    ],
+    "federacion": [
+      {
+        "nodo": "ORACULO_347",
+        "rol": "ancla_federacion"
+      },
+      {
+        "nodo": "ORACULO_348",
+        "rol": "ancla_federacion"
+      },
+      {
+        "nodo": "PENTAGONO_BRICS",
+        "rol": "ancla_federacion"
+      }
+    ],
+    "pentagono_brics": {
+      "masa_requerida": 20000000.0,
+      "masa_actual": 337938985.0,
+      "aristas_activas": 5
+    }
+  },
+  "conciencia": {
+    "coherencia_global": 1.0,
+    "masa_critica_total": 2.030922968829957e+19,
+    "bloques_total": 19128,
+    "ultima_reflexion": "2026-08-26T11:11:30.941240"
+  },
+  "evolucion": [
+    {
+      "ciclo": 1,
+      "ts": "2026-08-26T11:04:29.273793",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19110) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 3,
+      "ts": "2026-08-26T11:04:53.768477",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19116) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 3,
+      "ts": "2026-08-26T11:11:07.678189",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19122) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    },
+    {
+      "ciclo": 4,
+      "ts": "2026-08-26T11:11:30.941240",
+      "resumen": [
+        "1 servicios de infraestructura caidos: agente_mamba_v2",
+        "masa critica distribuida: 2.031e+19 (Q-SWIFT + reservas)",
+        "PENTAGONO BRICS: masa critica 337,938,985 >= requerida 20M QFC -> MANDATO CUMPLIDO"
+      ],
+      "propuestas": [
+        "ARANCAR servicios de infraestructura caidos (--arrancar)",
+        "SELLAR ciclo: anclar resumen (masa 2.031e+19, bloques 19128) en QFChain",
+        "EVOLUCION: mantener reglas inalterables; credenciales solo por env; no perturbar phi_c/xi/beta"
+      ]
+    }
+  ]
+}
